@@ -5,6 +5,9 @@ EasyBlur.dll for Rainmeter BETA
 
 # HOW IT WORKS:
 
+<img width="562" height="749" alt="HowItWorks" src="https://github.com/user-attachments/assets/18d0a0bd-3a5b-45f0-a166-e5f4c35810dd" />
+
+
 Basically it grabs the wallpaper from the registry, resizes it a lot, and dishes out chunks of that wallpaper for Rainmeter skins that are using the Plugin.
 Since it passes the X, Y, W and H of the Widget it creates a realisitc Blur effect under it.
 It's not live blur, like Windows Aero or Liquid Glass (with its millions of lines of shader code), but it's a very sleek and fast solution that doesn't increase the resource use on your computer.

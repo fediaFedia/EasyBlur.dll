@@ -1,3 +1,7 @@
 /.vs
 /EasyBlur/obj
+/EasyBlur/x64
+/EasyBlur/x32
 /ToggleDesktopIcons/obj
+/ToggleDesktopIcons/x64
+/ToggleDesktopIcons/x32

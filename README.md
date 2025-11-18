@@ -21,7 +21,7 @@ We are working to resolve these two and maybe someone in the Rainmeter community
 
 First, include EasyBlur.dll with the x32 / x64 Plugins folders.
 Then include these lines in your Skin(s):
-
+```
 [EasyBlur]
 Measure=Plugin
 Plugin=EasyBlur
@@ -41,7 +41,7 @@ w=500
 h=300
 x=10
 y=10
-
+```
 The [Blur] will be the actual image, so you can do stuff to it also, such as applying effects, re-sizing it, or adding more meters to layer it. See the example of this Skin, by right-clicking and selecting Edit.
 
 #ADDITIONAL OPTIONS
@@ -62,7 +62,8 @@ ImagePath=C:\Users\User\Pictures\Wall.jpg
 EXTRA REFRESH
 
 If you include this line under [Rainmeter] in your skin, it will, at least, refresh the blur when you moved the widget (and moved your mouse away from it)
-
+```
 [Rainmeter]
 Update=-1
 MouseLeaveAction=!execute [!CommandMeasure "EasyBlur" "!ReloadBlur"]
+```
